@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">LOGO</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Action
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <h2>Aplication</h2>
+
+  <form class="my-5">
+    <label for="libelle">libelle</label>
+    <input id="libelle" type="text" placeholder="libelle">
+
+
+    <label for="DBID">DBID</label>
+    <input id="DBID" type="text" placeholder="DBID">
+
+
+    <label for="ref">Reference</label>
+    <input id="ref" type="text" placeholder="Reference">
+
+
+    <label for="typ">Select Type</label>
+    <select name="typ" id="cars" aria-label="typ">
+      <option value="volvo">DCIP-1</option>
+      <option value="saab">DCIP-3</option>
+      <option value="mercedes">DCIP-5</option>
+      <option value="audi">DCIP-5</option>
+    </select>
+
+    <input type="submit">
+    <input type="reset">
+  </form>
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>libelle</th>
+        <th>DBID</th>
+        <th>Reference</th>
+        <th>Type</th>
+        <th>Historique</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>libelle1</td>
+        <td>DBID1</td>
+        <td>REF-01</td>
+        <td>DCIP-5</td>
+        <td>details</td>
+        <td>details</td>
+      </tr>
+      <tr>
+        <td>libelle1</td>
+        <td>DBID1</td>
+        <td>REF-01</td>
+        <td>DCIP-5</td>
+        <td>details</td>
+        <td>details</td>
+      </tr>
+      <tr>
+        <td>libelle1</td>
+        <td>DBID1</td>
+        <td>REF-01</td>
+        <td>DCIP-5</td>
+        <td>details</td>
+        <td>details</td>
+      </tr>
+      <tr>
+        <td>libelle1</td>
+        <td>DBID1</td>
+        <td>REF-01</td>
+        <td>DCIP-5</td>
+        <td>details</td>
+        <td>details</td>
+      </tr>
+      <tr>
+        <td>libelle1</td>
+        <td>DBID1</td>
+        <td>REF-01</td>
+        <td>DCIP-5</td>
+        <td>details</td>
+        <td>details</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+
+</html>
